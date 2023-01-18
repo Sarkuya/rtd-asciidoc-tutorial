@@ -1,0 +1,27 @@
+= Graphviz Tutorial
+
+A brief tutorial.
+
+[graphviz]
+----
+digraph g {
+  node [shape=circle]
+  
+  a -> b [color=blue]
+  c -> {e, f, g}
+}
+----
+
+The following is another diagram.
+
+[plantuml]   
+....
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
+
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+....
